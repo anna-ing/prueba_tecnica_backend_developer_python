@@ -73,7 +73,7 @@ alembic upgrade head
 #### 6. Iniciar el servidor
 
 ```bash
-fastapi dev src/main.py
+uvicorn src.main:app --reload
 ```
 
 El servidor estará disponible en: `http://localhost:8000`
